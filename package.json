@@ -7,6 +7,7 @@
     "preview": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nitropack": "latest"
-  }
+    "nitropack": "npm:nitropack-nightly@2.12.5-20250819-230311.89278001"
+  },
+  "packageManager": "pnpm@10.15.0"
 }
