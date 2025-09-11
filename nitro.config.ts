@@ -1,5 +1,10 @@
 //https://nitro.unjs.io/config
 export default defineNitroConfig({
   srcDir: "server",
-  compatibilityDate: '2025-07-15', // or 'latest'
+  compatibilityDate: '2025-07-15', // or 'latest',
+  storage: {
+    '/cache': {
+      driver: 'vercel-runtime-cache',
+    },
+  },
 });
