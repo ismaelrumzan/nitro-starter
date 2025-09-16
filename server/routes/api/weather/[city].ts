@@ -70,6 +70,6 @@ export default defineCachedEventHandler(
     return weatherData;
   },
   {
-    maxAge: 60, // Cache for 60 seconds
+    maxAge: 3600, // Cache for 1 hour
   }
 );
