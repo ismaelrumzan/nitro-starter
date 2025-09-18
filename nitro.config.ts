@@ -3,7 +3,7 @@ export default defineNitroConfig({
   srcDir: "server",
   compatibilityDate: '2025-07-15', // or 'latest',
   storage: {
-    '/cache/handlers': {
+    '/cache/nitro': {
       driver: 'vercel-runtime-cache',
     },
   },
